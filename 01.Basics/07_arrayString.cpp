@@ -26,4 +26,7 @@ int main(){
     for(int i=0; i<len; i++){
         cout<<str[i]<<" ";
     }
+
+    str[len-1] = 'o';
+    cout<<str[len-1]<<endl;
 }
