@@ -16,7 +16,14 @@ int main(){
     // STRING
     string str;
     cin>>str;
-    cout<<str[4]<<endl;
+    cout<<str[2]<<endl;
     cout<<str.size()<<endl;
     // cout<<str.length()<<endl;
+
+    int len = str.size();
+    cout<<str[len-2] <<endl;
+
+    for(int i=0; i<len; i++){
+        cout<<str[i]<<" ";
+    }
 }
